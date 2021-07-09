@@ -1388,3 +1388,20 @@ ul.dashed > li:before {
   -o-transition: all 0.5s ease 0s;
   transition: all 0.5s ease 0s;
 }
+
+::-webkit-scrollbar {
+  width: 8px;
+  background: transparent;
+}
+
+::-webkit-scrollbar-track {
+  background-color: #333;
+  border-radius: 0;
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: 0;
+  border: 2px solid transparent;
+  background-clip: content-box;
+  background-color: #ec3337;
+}
